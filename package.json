@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "install": "pip install -r requirements.txt",
+    "crawl": "python3 crawldata.py",
+    "embeding": "python3 embedText.py"
   },
   "dependencies": {
     "next": "^13.1.1",
